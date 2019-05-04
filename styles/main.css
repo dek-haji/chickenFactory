@@ -1,15 +1,19 @@
 body{
-    background-color: grey
+    background-color:silver;
+    background-image: url("http://pngimg.com/uploads/chicken/chicken_PNG2149.png");
+    background-repeat: no-repeat
+    
 }
 section{
     font-size: 20px;
     line-height: 20px;
     background-color:rgba(255,255,255, 0.7);
-    border: 4px solid black;
-    border-radius: 2px;
+    background-image: url("http://pluspng.com/img-png/white-chicken-png-image-png-image-2055.png");
+    border: 4px solid brown;
+    border-radius: 10px;
     max-width: 50px;
     max-height: 50px;
-    min-width: 325px;
+    min-width: 225px;
     min-height: 380px;
     margin: 5px;
     flex-basis: 33.3%;
@@ -18,3 +22,25 @@ section{
     overflow: scroll;
     flex-wrap: wrap;
 }
+h1{
+    text-align: center;
+    color: white;
+    border-bottom: 3px solid WHITE;
+    background-color: rgb(134, 94, 94)
+}
+.chickForm{
+    display: flex;
+    
+    background-color:rgb(134, 94, 94);
+    width: 270px;
+    color: white;
+}
+
+input {
+    font-size: 1em;
+  }
+
+  .output {
+    display: inline-flex;
+    flex-wrap: wrap
+  }
