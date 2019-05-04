@@ -8,11 +8,18 @@
       "id": 2
     },
     {
-      "name": "chicken name",
+      "name": "thug life",
       "gender": "female",
+      "color": "hahahha",
+      "spicelevel": "1",
+      "id": 4
+    },
+    {
+      "name": "wiiwii",
+      "gender": "male",
       "color": "grey",
-      "spicelevel": "5",
-      "id": 3
+      "spicelevel": "2",
+      "id": 5
     }
   ]
 }

@@ -21,7 +21,8 @@ function loadChickenData() {
             console.log(chick.id)
             console.log(parsedChicken)
             chickenCard.innerHTML += `
-            <section>
+            <section id="sectionId">
+            <h2> New Chicken </h2>
             <p>${chick.name}</p>
             <p>${chick.gender}</p>
             <p>${chick.color}</p>
@@ -34,7 +35,7 @@ function loadChickenData() {
 }
 
  saveBtn.addEventListener("click", newChickenSave)
-
+// when i trigger this function it targets the chicken ID then fetch delete, after that it makes new fetch to get all the chicken and reloads the page
 function deleteStuff(chickenId) {
             API.deleteChicken(chickenId).then(loadChickenData)
         
