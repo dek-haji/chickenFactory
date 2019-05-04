@@ -1,0 +1,18 @@
+{
+  "chicken": [
+    {
+      "name": "hi name",
+      "gender": "male",
+      "color": "green",
+      "spicelevel": "2",
+      "id": 2
+    },
+    {
+      "name": "chicken name",
+      "gender": "female",
+      "color": "grey",
+      "spicelevel": "5",
+      "id": 3
+    }
+  ]
+}

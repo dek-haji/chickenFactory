@@ -1,0 +1,20 @@
+body{
+    background-color: grey
+}
+section{
+    font-size: 20px;
+    line-height: 20px;
+    background-color:rgba(255,255,255, 0.7);
+    border: 4px solid black;
+    border-radius: 2px;
+    max-width: 50px;
+    max-height: 50px;
+    min-width: 325px;
+    min-height: 380px;
+    margin: 5px;
+    flex-basis: 33.3%;
+    text-align: center;
+    padding: 1px;
+    overflow: scroll;
+    flex-wrap: wrap;
+}
